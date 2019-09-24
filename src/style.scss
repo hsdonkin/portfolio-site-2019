@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+.page-wrap {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.splashPage {
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.splashText {
+  vertical-align: center;
+  font-size: 5vw;
+  margin: 0;
+  padding-top: 30%;
+}
+
+.splashText h1 {
+  margin: 0;
+}
+
+.splashText h2 {
+  font-size: 3vw;
+}
+
+.splashText a {
+  text-decoration: none;
+  color: black;
+}
+
+.splashText a:hover {
+  color: #fbe691;
+}
+
+.project {
+  height: 100vh;
+  padding-top: 3vh;
+}
+
+.project a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.project a:hover {
+  color: #fbe691;
+}
+
+.project-tech {
+  width: 50%;
+  float: left;
+}
+
+.project-tech p {
+  margin-left: 8vw;
+}
+
+.project-description {
+  width: 50%;
+  float: right;
+}
+
+.project-description p {
+  margin-right: 8vw;
+}
+
+div {
+  clear: right;
+}
+
+.project-img-holder {
+  text-align: center;
+}
+
+.project img {
+  width: 60vw;
+  border: 20px solid lightgray;
+  border-radius: 10px;
+}
+
+#pokedex-img {
+  width: 20vw;
+  border: 15px solid rgb(44, 44, 44);
+  border-top: 30px solid rgb(44, 44, 44);
+  border-bottom: 30px solid rgb(44, 44, 44);
+}
